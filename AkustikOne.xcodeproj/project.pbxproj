@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D294AC451C502AEF00B37E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC441C502AEF00B37E3D /* AppDelegate.swift */; };
+		D294AC471C502AEF00B37E3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC461C502AEF00B37E3D /* ViewController.swift */; };
+		D294AC4A1C502AEF00B37E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294AC481C502AEF00B37E3D /* Main.storyboard */; };
+		D294AC4C1C502AEF00B37E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D294AC4B1C502AEF00B37E3D /* Assets.xcassets */; };
+		D294AC4F1C502AEF00B37E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294AC4D1C502AEF00B37E3D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D294AC411C502AEF00B37E3D /* AkustikOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AkustikOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D294AC441C502AEF00B37E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D294AC461C502AEF00B37E3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D294AC491C502AEF00B37E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D294AC4B1C502AEF00B37E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D294AC4E1C502AEF00B37E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D294AC501C502AEF00B37E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D294AC3E1C502AEF00B37E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D294AC381C502AEF00B37E3D = {
+			isa = PBXGroup;
+			children = (
+				D294AC431C502AEF00B37E3D /* AkustikOne */,
+				D294AC421C502AEF00B37E3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D294AC421C502AEF00B37E3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D294AC411C502AEF00B37E3D /* AkustikOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D294AC431C502AEF00B37E3D /* AkustikOne */ = {
+			isa = PBXGroup;
+			children = (
+				D294AC441C502AEF00B37E3D /* AppDelegate.swift */,
+				D294AC461C502AEF00B37E3D /* ViewController.swift */,
+				D294AC481C502AEF00B37E3D /* Main.storyboard */,
+				D294AC4B1C502AEF00B37E3D /* Assets.xcassets */,
+				D294AC4D1C502AEF00B37E3D /* LaunchScreen.storyboard */,
+				D294AC501C502AEF00B37E3D /* Info.plist */,
+			);
+			path = AkustikOne;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D294AC401C502AEF00B37E3D /* AkustikOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D294AC531C502AEF00B37E3D /* Build configuration list for PBXNativeTarget "AkustikOne" */;
+			buildPhases = (
+				D294AC3D1C502AEF00B37E3D /* Sources */,
+				D294AC3E1C502AEF00B37E3D /* Frameworks */,
+				D294AC3F1C502AEF00B37E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AkustikOne;
+			productName = AkustikOne;
+			productReference = D294AC411C502AEF00B37E3D /* AkustikOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D294AC391C502AEF00B37E3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mats Hammarqvist";
+				TargetAttributes = {
+					D294AC401C502AEF00B37E3D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D294AC3C1C502AEF00B37E3D /* Build configuration list for PBXProject "AkustikOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D294AC381C502AEF00B37E3D;
+			productRefGroup = D294AC421C502AEF00B37E3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D294AC401C502AEF00B37E3D /* AkustikOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D294AC3F1C502AEF00B37E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D294AC4F1C502AEF00B37E3D /* LaunchScreen.storyboard in Resources */,
+				D294AC4C1C502AEF00B37E3D /* Assets.xcassets in Resources */,
+				D294AC4A1C502AEF00B37E3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D294AC3D1C502AEF00B37E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D294AC471C502AEF00B37E3D /* ViewController.swift in Sources */,
+				D294AC451C502AEF00B37E3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D294AC481C502AEF00B37E3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D294AC491C502AEF00B37E3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D294AC4D1C502AEF00B37E3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D294AC4E1C502AEF00B37E3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D294AC511C502AEF00B37E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D294AC521C502AEF00B37E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D294AC541C502AEF00B37E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AkustikOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.comhem.hammarqvist.mats.AkustikOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D294AC551C502AEF00B37E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AkustikOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.comhem.hammarqvist.mats.AkustikOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D294AC3C1C502AEF00B37E3D /* Build configuration list for PBXProject "AkustikOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D294AC511C502AEF00B37E3D /* Debug */,
+				D294AC521C502AEF00B37E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D294AC531C502AEF00B37E3D /* Build configuration list for PBXNativeTarget "AkustikOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D294AC541C502AEF00B37E3D /* Debug */,
+				D294AC551C502AEF00B37E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D294AC391C502AEF00B37E3D /* Project object */;
+}
