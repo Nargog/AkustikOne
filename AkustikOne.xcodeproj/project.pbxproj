@@ -39,14 +39,14 @@
 		D294AC491C502AEF00B37E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D294AC4E1C502AEF00B37E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D294AC501C502AEF00B37E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D294AC581C502CB700B37E3D /* ReduktionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReduktionViewController.swift; path = ../../calculateRw/calculateRw/ReduktionViewController.swift; sourceTree = "<group>"; };
-		D294AC591C502CB700B37E3D /* InputSpektraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputSpektraViewController.swift; path = ../../calculateRw/calculateRw/InputSpektraViewController.swift; sourceTree = "<group>"; };
-		D294AC5A1C502CB700B37E3D /* Reduktion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reduktion.swift; path = ../../calculateRw/calculateRw/Reduktion.swift; sourceTree = "<group>"; };
-		D294AC5F1C5031CE00B37E3D /* LombardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LombardViewController.swift; path = ../../lombardEffektApp/lombardEffektApp/LombardViewController.swift; sourceTree = "<group>"; };
-		D294AC821C50389D00B37E3D /* BalkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BalkViewController.swift; path = ../../NyBalkResonans/NyBalkResonans/BalkViewController.swift; sourceTree = "<group>"; };
-		D294AC831C50389D00B37E3D /* BalkResonanser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BalkResonanser.swift; path = ../../NyBalkResonans/NyBalkResonans/BalkResonanser.swift; sourceTree = "<group>"; };
-		D294AC871C503C4200B37E3D /* LwToLpOutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LwToLpOutController.swift; path = ../../../DeveloperX/Akustik/Akustik/LwToLpOutController.swift; sourceTree = "<group>"; };
-		D294AC891C50404100B37E3D /* modelAkustik.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = modelAkustik.swift; path = ../../../DeveloperX/Akustik/Akustik/modelAkustik.swift; sourceTree = "<group>"; };
+		D294AC581C502CB700B37E3D /* ReduktionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduktionViewController.swift; sourceTree = "<group>"; };
+		D294AC591C502CB700B37E3D /* InputSpektraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputSpektraViewController.swift; sourceTree = "<group>"; };
+		D294AC5A1C502CB700B37E3D /* Reduktion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reduktion.swift; sourceTree = "<group>"; };
+		D294AC5F1C5031CE00B37E3D /* LombardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LombardViewController.swift; sourceTree = "<group>"; };
+		D294AC821C50389D00B37E3D /* BalkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalkViewController.swift; sourceTree = "<group>"; };
+		D294AC831C50389D00B37E3D /* BalkResonanser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalkResonanser.swift; sourceTree = "<group>"; };
+		D294AC871C503C4200B37E3D /* LwToLpOutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LwToLpOutController.swift; sourceTree = "<group>"; };
+		D294AC891C50404100B37E3D /* modelAkustik.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modelAkustik.swift; sourceTree = "<group>"; };
 		D2D843481C62532E00D2E811 /* LombardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LombardModel.swift; sourceTree = "<group>"; };
 		D2D8434B1C6256A000D2E811 /* KylViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KylViewController.swift; sourceTree = "<group>"; };
 		D2D8434D1C62589000D2E811 /* KylFrysModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KylFrysModel.swift; sourceTree = "<group>"; };
@@ -125,7 +125,8 @@
 				D294AC5A1C502CB700B37E3D /* Reduktion.swift */,
 			);
 			name = Rw;
-			sourceTree = "<group>";
+			path = AkustikOne;
+			sourceTree = SOURCE_ROOT;
 		};
 		D294AC5E1C5030C900B37E3D /* Lombard */ = {
 			isa = PBXGroup;
@@ -134,7 +135,8 @@
 				D2D843481C62532E00D2E811 /* LombardModel.swift */,
 			);
 			name = Lombard;
-			sourceTree = "<group>";
+			path = AkustikOne;
+			sourceTree = SOURCE_ROOT;
 		};
 		D294AC811C50385700B37E3D /* Balk */ = {
 			isa = PBXGroup;
