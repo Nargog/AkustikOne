@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49959D7D1E171D640087E619 /* TalandeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49959D7C1E171D640087E619 /* TalandeViewController.swift */; };
+		49959D7F1E171D8A0087E619 /* Talande.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49959D7E1E171D8A0087E619 /* Talande.swift */; };
+		49D749261D90849200C3C097 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D749251D90849200C3C097 /* Media.xcassets */; };
+		49F7D5041DB01DD000625FF6 /* MatsFunktioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7D5031DB01DD000625FF6 /* MatsFunktioner.swift */; };
 		D294AC451C502AEF00B37E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC441C502AEF00B37E3D /* AppDelegate.swift */; };
-		D294AC471C502AEF00B37E3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC461C502AEF00B37E3D /* ViewController.swift */; };
+		D294AC471C502AEF00B37E3D /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC461C502AEF00B37E3D /* StartViewController.swift */; };
 		D294AC4A1C502AEF00B37E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294AC481C502AEF00B37E3D /* Main.storyboard */; };
-		D294AC4C1C502AEF00B37E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D294AC4B1C502AEF00B37E3D /* Assets.xcassets */; };
 		D294AC4F1C502AEF00B37E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D294AC4D1C502AEF00B37E3D /* LaunchScreen.storyboard */; };
+		D294AC5B1C502CB700B37E3D /* ReduktionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC581C502CB700B37E3D /* ReduktionViewController.swift */; };
+		D294AC5C1C502CB700B37E3D /* InputSpektraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC591C502CB700B37E3D /* InputSpektraViewController.swift */; };
+		D294AC5D1C502CB700B37E3D /* Reduktion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC5A1C502CB700B37E3D /* Reduktion.swift */; };
+		D294AC601C5031CE00B37E3D /* LombardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC5F1C5031CE00B37E3D /* LombardViewController.swift */; };
+		D294AC841C50389D00B37E3D /* BalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC821C50389D00B37E3D /* BalkViewController.swift */; };
+		D294AC851C50389D00B37E3D /* BalkResonanser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC831C50389D00B37E3D /* BalkResonanser.swift */; };
+		D294AC881C503C4200B37E3D /* LwToLpOutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC871C503C4200B37E3D /* LwToLpOutController.swift */; };
+		D294AC8A1C50404100B37E3D /* modelAkustik.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC891C50404100B37E3D /* modelAkustik.swift */; };
+		D2D843491C62532E00D2E811 /* LombardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D843481C62532E00D2E811 /* LombardModel.swift */; };
+		D2D8434C1C6256A000D2E811 /* KylViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D8434B1C6256A000D2E811 /* KylViewController.swift */; };
+		D2D8434E1C62589000D2E811 /* KylFrysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D8434D1C62589000D2E811 /* KylFrysModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49959D7C1E171D640087E619 /* TalandeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TalandeViewController.swift; path = AkustikOne/TalandeViewController.swift; sourceTree = "<group>"; };
+		49959D7E1E171D8A0087E619 /* Talande.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Talande.swift; path = AkustikOne/Talande.swift; sourceTree = "<group>"; };
+		49D749251D90849200C3C097 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
+		49F7D5031DB01DD000625FF6 /* MatsFunktioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatsFunktioner.swift; sourceTree = "<group>"; };
 		D294AC411C502AEF00B37E3D /* AkustikOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AkustikOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D294AC441C502AEF00B37E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D294AC461C502AEF00B37E3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D294AC461C502AEF00B37E3D /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		D294AC491C502AEF00B37E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D294AC4B1C502AEF00B37E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D294AC4E1C502AEF00B37E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D294AC501C502AEF00B37E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D294AC581C502CB700B37E3D /* ReduktionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReduktionViewController.swift; path = ../../calculateRw/calculateRw/ReduktionViewController.swift; sourceTree = "<group>"; };
+		D294AC591C502CB700B37E3D /* InputSpektraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputSpektraViewController.swift; path = ../../calculateRw/calculateRw/InputSpektraViewController.swift; sourceTree = "<group>"; };
+		D294AC5A1C502CB700B37E3D /* Reduktion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reduktion.swift; path = ../../calculateRw/calculateRw/Reduktion.swift; sourceTree = "<group>"; };
+		D294AC5F1C5031CE00B37E3D /* LombardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LombardViewController.swift; path = ../../lombardEffektApp/lombardEffektApp/LombardViewController.swift; sourceTree = "<group>"; };
+		D294AC821C50389D00B37E3D /* BalkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BalkViewController.swift; path = ../../NyBalkResonans/NyBalkResonans/BalkViewController.swift; sourceTree = "<group>"; };
+		D294AC831C50389D00B37E3D /* BalkResonanser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BalkResonanser.swift; path = ../../NyBalkResonans/NyBalkResonans/BalkResonanser.swift; sourceTree = "<group>"; };
+		D294AC871C503C4200B37E3D /* LwToLpOutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LwToLpOutController.swift; path = ../../../DeveloperX/Akustik/Akustik/LwToLpOutController.swift; sourceTree = "<group>"; };
+		D294AC891C50404100B37E3D /* modelAkustik.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = modelAkustik.swift; path = ../../../DeveloperX/Akustik/Akustik/modelAkustik.swift; sourceTree = "<group>"; };
+		D2D843481C62532E00D2E811 /* LombardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LombardModel.swift; sourceTree = "<group>"; };
+		D2D8434B1C6256A000D2E811 /* KylViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KylViewController.swift; sourceTree = "<group>"; };
+		D2D8434D1C62589000D2E811 /* KylFrysModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KylFrysModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +63,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49959D7B1E171C810087E619 /* Talande */ = {
+			isa = PBXGroup;
+			children = (
+				49959D7E1E171D8A0087E619 /* Talande.swift */,
+				49959D7C1E171D640087E619 /* TalandeViewController.swift */,
+			);
+			name = Talande;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		D294AC381C502AEF00B37E3D = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +92,75 @@
 		D294AC431C502AEF00B37E3D /* AkustikOne */ = {
 			isa = PBXGroup;
 			children = (
-				D294AC441C502AEF00B37E3D /* AppDelegate.swift */,
-				D294AC461C502AEF00B37E3D /* ViewController.swift */,
+				49D749251D90849200C3C097 /* Media.xcassets */,
+				D294AC461C502AEF00B37E3D /* StartViewController.swift */,
 				D294AC481C502AEF00B37E3D /* Main.storyboard */,
-				D294AC4B1C502AEF00B37E3D /* Assets.xcassets */,
 				D294AC4D1C502AEF00B37E3D /* LaunchScreen.storyboard */,
-				D294AC501C502AEF00B37E3D /* Info.plist */,
+				49959D7B1E171C810087E619 /* Talande */,
+				D2D8434A1C62562800D2E811 /* LjudKylFrys */,
+				D294AC571C502C5B00B37E3D /* Rw */,
+				D294AC5E1C5030C900B37E3D /* Lombard */,
+				D294AC811C50385700B37E3D /* Balk */,
+				D294AC861C503BEE00B37E3D /* LwToLpOut */,
+				D294AC561C502BD100B37E3D /* Diverse */,
 			);
 			path = AkustikOne;
+			sourceTree = "<group>";
+		};
+		D294AC561C502BD100B37E3D /* Diverse */ = {
+			isa = PBXGroup;
+			children = (
+				D294AC441C502AEF00B37E3D /* AppDelegate.swift */,
+				D294AC501C502AEF00B37E3D /* Info.plist */,
+				49F7D5031DB01DD000625FF6 /* MatsFunktioner.swift */,
+			);
+			name = Diverse;
+			sourceTree = "<group>";
+		};
+		D294AC571C502C5B00B37E3D /* Rw */ = {
+			isa = PBXGroup;
+			children = (
+				D294AC581C502CB700B37E3D /* ReduktionViewController.swift */,
+				D294AC591C502CB700B37E3D /* InputSpektraViewController.swift */,
+				D294AC5A1C502CB700B37E3D /* Reduktion.swift */,
+			);
+			name = Rw;
+			sourceTree = "<group>";
+		};
+		D294AC5E1C5030C900B37E3D /* Lombard */ = {
+			isa = PBXGroup;
+			children = (
+				D294AC5F1C5031CE00B37E3D /* LombardViewController.swift */,
+				D2D843481C62532E00D2E811 /* LombardModel.swift */,
+			);
+			name = Lombard;
+			sourceTree = "<group>";
+		};
+		D294AC811C50385700B37E3D /* Balk */ = {
+			isa = PBXGroup;
+			children = (
+				D294AC821C50389D00B37E3D /* BalkViewController.swift */,
+				D294AC831C50389D00B37E3D /* BalkResonanser.swift */,
+			);
+			name = Balk;
+			sourceTree = "<group>";
+		};
+		D294AC861C503BEE00B37E3D /* LwToLpOut */ = {
+			isa = PBXGroup;
+			children = (
+				D294AC871C503C4200B37E3D /* LwToLpOutController.swift */,
+				D294AC891C50404100B37E3D /* modelAkustik.swift */,
+			);
+			name = LwToLpOut;
+			sourceTree = "<group>";
+		};
+		D2D8434A1C62562800D2E811 /* LjudKylFrys */ = {
+			isa = PBXGroup;
+			children = (
+				D2D8434B1C6256A000D2E811 /* KylViewController.swift */,
+				D2D8434D1C62589000D2E811 /* KylFrysModel.swift */,
+			);
+			name = LjudKylFrys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,11 +190,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Mats Hammarqvist";
 				TargetAttributes = {
 					D294AC401C502AEF00B37E3D = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = F6VSMN9TJS;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -123,7 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D294AC4F1C502AEF00B37E3D /* LaunchScreen.storyboard in Resources */,
-				D294AC4C1C502AEF00B37E3D /* Assets.xcassets in Resources */,
+				49D749261D90849200C3C097 /* Media.xcassets in Resources */,
 				D294AC4A1C502AEF00B37E3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +236,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D294AC471C502AEF00B37E3D /* ViewController.swift in Sources */,
+				D294AC881C503C4200B37E3D /* LwToLpOutController.swift in Sources */,
+				49959D7F1E171D8A0087E619 /* Talande.swift in Sources */,
+				D294AC841C50389D00B37E3D /* BalkViewController.swift in Sources */,
+				D294AC8A1C50404100B37E3D /* modelAkustik.swift in Sources */,
+				D294AC851C50389D00B37E3D /* BalkResonanser.swift in Sources */,
+				D294AC601C5031CE00B37E3D /* LombardViewController.swift in Sources */,
+				D294AC5C1C502CB700B37E3D /* InputSpektraViewController.swift in Sources */,
+				D294AC5D1C502CB700B37E3D /* Reduktion.swift in Sources */,
+				D294AC471C502AEF00B37E3D /* StartViewController.swift in Sources */,
+				D294AC5B1C502CB700B37E3D /* ReduktionViewController.swift in Sources */,
+				D2D8434E1C62589000D2E811 /* KylFrysModel.swift in Sources */,
+				D2D8434C1C6256A000D2E811 /* KylViewController.swift in Sources */,
 				D294AC451C502AEF00B37E3D /* AppDelegate.swift in Sources */,
+				49959D7D1E171D640087E619 /* TalandeViewController.swift in Sources */,
+				D2D843491C62532E00D2E811 /* LombardModel.swift in Sources */,
+				49F7D5041DB01DD000625FF6 /* MatsFunktioner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +290,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -220,8 +337,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -240,6 +359,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -249,10 +369,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F6VSMN9TJS;
 				INFOPLIST_FILE = AkustikOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.comhem.hammarqvist.mats.AkustikOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -260,10 +382,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F6VSMN9TJS;
 				INFOPLIST_FILE = AkustikOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.comhem.hammarqvist.mats.AkustikOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +410,7 @@
 				D294AC551C502AEF00B37E3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
