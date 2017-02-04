@@ -20,8 +20,6 @@ class StartViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-//ännu en ändring
-    
-    //ytterligare lite till
+//ändring på macmini 2300
 }
 
