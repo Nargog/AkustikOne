@@ -505,7 +505,7 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qEN-Uh-T9t">
                                 <rect key="frame" x="262" y="186" width="51" height="31"/>
                                 <connections>
-                                    <action selector="btnIsCylindrical:" destination="AcH-h9-a1u" eventType="valueChanged" id="M6X-Ii-zGC"/>
+                                    <action selector="btnIsCylindrical:" destination="AcH-h9-a1u" eventType="valueChanged" id="Y7f-Bg-SMn"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cylindrical object" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLY-Qo-Cqz">
@@ -540,7 +540,7 @@
                                 <rect key="frame" x="303" y="617" width="56" height="30"/>
                                 <state key="normal" title="Beräkna"/>
                                 <connections>
-                                    <action selector="btnCalculate:" destination="AcH-h9-a1u" eventType="touchUpInside" id="g0K-Bn-Wju"/>
+                                    <action selector="btnCalculate:" destination="AcH-h9-a1u" eventType="touchUpInside" id="hbM-GJ-4mq"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frekvens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxh-WZ-P5X">
@@ -557,8 +557,7 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ydH-ww-ZcA">
                                 <rect key="frame" x="262" y="230" width="51" height="31"/>
                                 <connections>
-                                    <action selector="btnIsCylindrical:" destination="AcH-h9-a1u" eventType="valueChanged" id="Ea1-1R-ED6"/>
-                                    <action selector="switchFromFrekvensToVindh:" destination="AcH-h9-a1u" eventType="valueChanged" id="KYo-K8-aUM"/>
+                                    <action selector="switchFromFrekToVindh:" destination="AcH-h9-a1u" eventType="valueChanged" id="Bd0-BZ-x5e"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frekvens -&gt; Vindhastighet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94Y-nI-0GU">
@@ -618,7 +617,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j32-3P-LiX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2754.4000000000001" y="-572.56371814092961"/>
+            <point key="canvasLocation" x="-2650" y="-617"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="R34-0e-UnM">
