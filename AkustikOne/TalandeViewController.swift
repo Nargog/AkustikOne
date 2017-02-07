@@ -43,6 +43,7 @@ class TalandeViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     
     /**
      * Called when the user click on the view (outside the UITextField).
+     @IBOutlet weak var txtAntalPersoner: UITextField!
      */
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
