@@ -41,7 +41,7 @@ class KarmanViewController: UIViewController {
     
     @IBOutlet weak var txtDiameter: UITextField!
     
-    @IBAction func switchFromFrekvensToVindh(sender: UISwitch) {
+    @IBAction func switchFromFrekToVindh(_ sender: UISwitch) {
         if sender.isOn {
             print("ON switch")
         } else {
@@ -49,14 +49,14 @@ class KarmanViewController: UIViewController {
         }
     }
    
-    @IBAction func btnIsCylindrical(sender: UISwitch) {
+    @IBAction func btnIsCylindrical(_ sender: UISwitch) {
     }
+
     
-    @IBAction func btnCalculate(sender: UIButton) {
-        
-       
-            
-        }
+    @IBAction func btnCalculate(_ sender: UIButton) {
+        // calculate()
+    }
+   
     
     
         

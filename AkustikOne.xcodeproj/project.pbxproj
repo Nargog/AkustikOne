@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494C2F6D1E4A594600B898F7 /* KarmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C2F6C1E4A594600B898F7 /* KarmanViewController.swift */; };
+		494C2F6F1E4A598900B898F7 /* KarmanVirvel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C2F6E1E4A598900B898F7 /* KarmanVirvel.swift */; };
 		49959D7D1E171D640087E619 /* TalandeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49959D7C1E171D640087E619 /* TalandeViewController.swift */; };
 		49959D7F1E171D8A0087E619 /* Talande.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49959D7E1E171D8A0087E619 /* Talande.swift */; };
 		49D749261D90849200C3C097 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D749251D90849200C3C097 /* Media.xcassets */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		494C2F6C1E4A594600B898F7 /* KarmanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KarmanViewController.swift; sourceTree = "<group>"; };
+		494C2F6E1E4A598900B898F7 /* KarmanVirvel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KarmanVirvel.swift; sourceTree = "<group>"; };
 		49959D7C1E171D640087E619 /* TalandeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TalandeViewController.swift; path = AkustikOne/TalandeViewController.swift; sourceTree = "<group>"; };
 		49959D7E1E171D8A0087E619 /* Talande.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Talande.swift; path = AkustikOne/Talande.swift; sourceTree = "<group>"; };
 		49D749251D90849200C3C097 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
@@ -63,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		494C2F701E4A59BF00B898F7 /* Virvel */ = {
+			isa = PBXGroup;
+			children = (
+				494C2F6C1E4A594600B898F7 /* KarmanViewController.swift */,
+				494C2F6E1E4A598900B898F7 /* KarmanVirvel.swift */,
+			);
+			name = Virvel;
+			sourceTree = "<group>";
+		};
 		49959D7B1E171C810087E619 /* Talande */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +109,7 @@
 				D294AC461C502AEF00B37E3D /* StartViewController.swift */,
 				D294AC481C502AEF00B37E3D /* Main.storyboard */,
 				D294AC4D1C502AEF00B37E3D /* LaunchScreen.storyboard */,
+				494C2F701E4A59BF00B898F7 /* Virvel */,
 				49959D7B1E171C810087E619 /* Talande */,
 				D2D8434A1C62562800D2E811 /* LjudKylFrys */,
 				D294AC571C502C5B00B37E3D /* Rw */,
@@ -239,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D294AC881C503C4200B37E3D /* LwToLpOutController.swift in Sources */,
+				494C2F6F1E4A598900B898F7 /* KarmanVirvel.swift in Sources */,
 				49959D7F1E171D8A0087E619 /* Talande.swift in Sources */,
 				D294AC841C50389D00B37E3D /* BalkViewController.swift in Sources */,
 				D294AC8A1C50404100B37E3D /* modelAkustik.swift in Sources */,
@@ -247,6 +262,7 @@
 				D294AC5C1C502CB700B37E3D /* InputSpektraViewController.swift in Sources */,
 				D294AC5D1C502CB700B37E3D /* Reduktion.swift in Sources */,
 				D294AC471C502AEF00B37E3D /* StartViewController.swift in Sources */,
+				494C2F6D1E4A594600B898F7 /* KarmanViewController.swift in Sources */,
 				D294AC5B1C502CB700B37E3D /* ReduktionViewController.swift in Sources */,
 				D2D8434E1C62589000D2E811 /* KylFrysModel.swift in Sources */,
 				D2D8434C1C6256A000D2E811 /* KylViewController.swift in Sources */,
