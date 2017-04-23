@@ -88,7 +88,7 @@ class TalandeViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         röstStyrka.ljudEffekt = röstStyrka.röster[row].LpWA
-        print("value picked: ------\(röstStyrka.ljudEffekt) dBA")
+        print("value picked: ------\(String(describing: röstStyrka.ljudEffekt)) dBA")
         upDateAlles()
         
     }

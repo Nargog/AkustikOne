@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		494C2F6D1E4A594600B898F7 /* KarmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C2F6C1E4A594600B898F7 /* KarmanViewController.swift */; };
 		494C2F6F1E4A598900B898F7 /* KarmanVirvel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C2F6E1E4A598900B898F7 /* KarmanVirvel.swift */; };
+		497045DF1E58B35F008D1D5B /* tersband.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497045DE1E58B35F008D1D5B /* tersband.swift */; };
 		49959D7D1E171D640087E619 /* TalandeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49959D7C1E171D640087E619 /* TalandeViewController.swift */; };
 		49959D7F1E171D8A0087E619 /* Talande.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49959D7E1E171D8A0087E619 /* Talande.swift */; };
 		49D749261D90849200C3C097 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D749251D90849200C3C097 /* Media.xcassets */; };
+		49D9FF461EA696F30041EFD5 /* WeightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D9FF451EA696F30041EFD5 /* WeightingViewController.swift */; };
+		49D9FF481EA698340041EFD5 /* FrequencyWeighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D9FF471EA698340041EFD5 /* FrequencyWeighting.swift */; };
 		49F7D5041DB01DD000625FF6 /* MatsFunktioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7D5031DB01DD000625FF6 /* MatsFunktioner.swift */; };
 		D294AC451C502AEF00B37E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC441C502AEF00B37E3D /* AppDelegate.swift */; };
 		D294AC471C502AEF00B37E3D /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294AC461C502AEF00B37E3D /* StartViewController.swift */; };
@@ -33,9 +36,12 @@
 /* Begin PBXFileReference section */
 		494C2F6C1E4A594600B898F7 /* KarmanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KarmanViewController.swift; sourceTree = "<group>"; };
 		494C2F6E1E4A598900B898F7 /* KarmanVirvel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KarmanVirvel.swift; sourceTree = "<group>"; };
+		497045DE1E58B35F008D1D5B /* tersband.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tersband.swift; sourceTree = "<group>"; };
 		49959D7C1E171D640087E619 /* TalandeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TalandeViewController.swift; path = AkustikOne/TalandeViewController.swift; sourceTree = "<group>"; };
 		49959D7E1E171D8A0087E619 /* Talande.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Talande.swift; path = AkustikOne/Talande.swift; sourceTree = "<group>"; };
 		49D749251D90849200C3C097 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
+		49D9FF451EA696F30041EFD5 /* WeightingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightingViewController.swift; sourceTree = "<group>"; };
+		49D9FF471EA698340041EFD5 /* FrequencyWeighting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequencyWeighting.swift; sourceTree = "<group>"; };
 		49F7D5031DB01DD000625FF6 /* MatsFunktioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatsFunktioner.swift; sourceTree = "<group>"; };
 		D294AC411C502AEF00B37E3D /* AkustikOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AkustikOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D294AC441C502AEF00B37E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +92,15 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		49D9FF491EA6984C0041EFD5 /* weighting */ = {
+			isa = PBXGroup;
+			children = (
+				49D9FF451EA696F30041EFD5 /* WeightingViewController.swift */,
+				49D9FF471EA698340041EFD5 /* FrequencyWeighting.swift */,
+			);
+			name = weighting;
+			sourceTree = "<group>";
+		};
 		D294AC381C502AEF00B37E3D = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +120,7 @@
 		D294AC431C502AEF00B37E3D /* AkustikOne */ = {
 			isa = PBXGroup;
 			children = (
+				49D9FF491EA6984C0041EFD5 /* weighting */,
 				49D749251D90849200C3C097 /* Media.xcassets */,
 				D294AC461C502AEF00B37E3D /* StartViewController.swift */,
 				D294AC481C502AEF00B37E3D /* Main.storyboard */,
@@ -137,6 +153,7 @@
 				D294AC581C502CB700B37E3D /* ReduktionViewController.swift */,
 				D294AC591C502CB700B37E3D /* InputSpektraViewController.swift */,
 				D294AC5A1C502CB700B37E3D /* Reduktion.swift */,
+				497045DE1E58B35F008D1D5B /* tersband.swift */,
 			);
 			name = Rw;
 			path = AkustikOne;
@@ -255,6 +272,7 @@
 				D294AC881C503C4200B37E3D /* LwToLpOutController.swift in Sources */,
 				494C2F6F1E4A598900B898F7 /* KarmanVirvel.swift in Sources */,
 				49959D7F1E171D8A0087E619 /* Talande.swift in Sources */,
+				497045DF1E58B35F008D1D5B /* tersband.swift in Sources */,
 				D294AC841C50389D00B37E3D /* BalkViewController.swift in Sources */,
 				D294AC8A1C50404100B37E3D /* modelAkustik.swift in Sources */,
 				D294AC851C50389D00B37E3D /* BalkResonanser.swift in Sources */,
@@ -264,9 +282,11 @@
 				D294AC471C502AEF00B37E3D /* StartViewController.swift in Sources */,
 				494C2F6D1E4A594600B898F7 /* KarmanViewController.swift in Sources */,
 				D294AC5B1C502CB700B37E3D /* ReduktionViewController.swift in Sources */,
+				49D9FF461EA696F30041EFD5 /* WeightingViewController.swift in Sources */,
 				D2D8434E1C62589000D2E811 /* KylFrysModel.swift in Sources */,
 				D2D8434C1C6256A000D2E811 /* KylViewController.swift in Sources */,
 				D294AC451C502AEF00B37E3D /* AppDelegate.swift in Sources */,
+				49D9FF481EA698340041EFD5 /* FrequencyWeighting.swift in Sources */,
 				49959D7D1E171D640087E619 /* TalandeViewController.swift in Sources */,
 				D2D843491C62532E00D2E811 /* LombardModel.swift in Sources */,
 				49F7D5041DB01DD000625FF6 /* MatsFunktioner.swift in Sources */,
@@ -393,6 +413,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = se.comhem.hammarqvist.mats.AkustikOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -406,6 +427,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = se.comhem.hammarqvist.mats.AkustikOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

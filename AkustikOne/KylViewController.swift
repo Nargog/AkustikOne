@@ -8,18 +8,37 @@
 
 import UIKit
 
-class KylViewController: UIViewController {
+class KylViewController: UIViewController, UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        txtLjudEffekt.delegate = self
+        
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(KylViewController.dismissKeyboard)))
+       
+        
+      
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+ var userIsEnteringNumber = false
+    
+    func dismissKeyboard(){
+        txtLjudEffekt.resignFirstResponder()
+        room.vitVara?.ljudEffekt = Double(txtLjudEffekt.text!)!
+        lblResult.text = String(room.ljudNivåIRum)
+        userIsEnteringNumber = false
     }
-
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        txtLjudEffekt.resignFirstResponder()
+        userIsEnteringNumber = false
+        return true
+    }
+    
+    @IBOutlet weak var lblResult: UILabel!
     
     @IBOutlet weak var txtLjudEffekt: UITextField!
     
